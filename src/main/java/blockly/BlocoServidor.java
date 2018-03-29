@@ -19,9 +19,7 @@ public class BlocoServidor {
 		return new Callable<Var>() {
 
 			public Var call() throws Exception {
-				cronapi.util.Operations.callClientFunction(Var.valueOf("cronapi.screen.notify"), Var.valueOf("success"),
-						Var.valueOf("1"));
-				return Var.VAR_NULL;
+				return cronapi.database.Operations.query(Var.VAR_NULL, Var.VAR_NULL);
 			}
 		}.call();
 	}
