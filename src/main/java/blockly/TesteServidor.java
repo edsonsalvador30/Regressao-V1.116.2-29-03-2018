@@ -19,7 +19,7 @@ public class TesteServidor {
 		return new Callable<Var>() {
 
 			public Var call() throws Exception {
-				return Var.VAR_NULL;
+				return cronapi.database.Operations.query(Var.VAR_NULL, Var.VAR_NULL, Var.VAR_NULL);
 			}
 		}.call();
 	}
