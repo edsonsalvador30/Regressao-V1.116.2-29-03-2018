@@ -9,7 +9,7 @@
         <field name="SELECT">success</field>
         <value name="MESSAGE">
           <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="ePS-G[Omw~V+8v;W^IXg" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-            <field name="TEXT">Teste</field>
+            <field name="TEXT">Junior</field>
           </shadow>
         </value>
       </block>

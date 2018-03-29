@@ -7,5 +7,5 @@ window.blockly.js.blockly.Mensagem = window.blockly.js.blockly.Mensagem || {};
  * Mensagem
  */
 window.blockly.js.blockly.Mensagem.Executar = function() {
-	this.cronapi.screen.notify('success', 'Teste');
+	this.cronapi.screen.notify('success', 'Junior');
 }
